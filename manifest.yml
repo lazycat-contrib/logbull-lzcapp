@@ -6,10 +6,9 @@ application:
   upstreams:
     - location: /
       backend: http://logbull:4005/
-
 services:
   logbull:
-    # upstream: docker.io/logbull/logbull:v0.6.2
-    image: registry.lazycat.cloud/czyt/logbull/logbull:76fdab7f67ec74e7
+    # upstream: docker.io/logbull/logbull:v0.28.1
+    image: registry.lazycat.cloud/czyt/logbull/logbull:5db06248c3c7b81c
     binds:
       - /lzcapp/var/data:/logbull-data

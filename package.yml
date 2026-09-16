@@ -1,11 +1,10 @@
 package: community.lazycat.app.logbull
-version: 0.6.2
+version: 0.28.1
 name: Log Bull
 description: "简单的日志收集和查看系统"
 homepage: https://github.com/logbull/logbull
 author: logbull
 min_os_version: 1.5.0
-
 locales:
   zh:
     name: "Log Bull"
