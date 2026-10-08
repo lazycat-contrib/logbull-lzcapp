@@ -1,4 +1,5 @@
 package: community.lazycat.app.logbull
+license: Apache-2.0
 version: 0.28.1
 name: Log Bull
 description: "简单的日志收集和查看系统"
